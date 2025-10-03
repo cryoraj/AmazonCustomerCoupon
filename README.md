@@ -41,22 +41,52 @@ The dataset includes:
 
 ---
 
-## Key Findings
-- **Coupon Type**: Coffee house and inexpensive restaurant coupons had the highest acceptance rates. More expensive restaurants had the lowest.  
-- **Passenger**: Drivers with friends or partners were more likely to accept coupons than those driving alone.  
-- **Time of Day**: Coffee coupons were more popular in the morning and afternoon; bar coupons were more popular in the evening.  
-- **Weather**: Clear days had the highest acceptance, while snowy days had the lowest.  
-- **Destination**: Drivers with no urgent destination were more likely to accept coupons. Work trips showed lower acceptance.  
-- **Age**: Younger drivers (< 30) accepted coupons more frequently than older drivers.
+#### Key Insights from Visualizations
 
+1. **Coupon Type Matters**
+
+   - Coffee house and inexpensive restaurant coupons have the highest acceptance rates.
+
+   - More expensive restaurant coupons show much lower acceptance.
+
+2. **Weather & Destination Influence Behavior**
+
+   - Clear weather is associated with higher coupon acceptance.
+
+   - Work-related trips have the lowest acceptance, while leisure-oriented destinations (like “home” or “friends”) show stronger engagement.
+
+3. **Demographics Drive Acceptance**
+
+   - **Age:** Younger drivers are significantly more likely to accept coupons.
+
+   - **Has Children:** Families with children tend to accept coupons at slightly higher rates than those without.
+
+   - **Marital Status:** Singles are more responsive to coupons than married customers.
+
+   - **Education:** Acceptance rates are fairly balanced across education levels, but slightly higher among those with college or some higher education.
+
+   - **Occupation:** Certain occupations (students, sales/service roles) show higher acceptance compared to professionals in managerial or technical roles.
 ---
 
-## Recommendations
-- **Target younger audiences** (especially 20–30 years old) with coffee and restaurant coupons.  
-- **Send bar coupons in the evening**, especially when drivers are with friends.  
-- **Weather-based campaigns**: Emphasize delivery/takeaway options during snowy or rainy conditions.  
-- **Avoid work commutes**: Focus on leisure and social trips where acceptance is higher.  
+#### Recommendations
 
+1. **Target Younger Audiences & Students**  
+   - Focus marketing campaigns on younger age groups and occupations like students and service workers, where acceptance rates are highest.  
+
+2. **Optimize for Context**  
+   - Deliver coupons during **clear weather** and **non-work trips**, especially for leisure or dining destinations.  
+
+3. **Personalize Campaigns**  
+   - **Families with children** may respond better to family-oriented promotions (e.g., restaurants, group offers).  
+   - **Singles** may respond better to social or nightlife-related coupons (bars, coffee houses).  
+
+4. **Coupon Type Strategy**  
+   - Invest in **coffee house** and **inexpensive restaurant coupons**, which drive the highest engagement.  
+   - Rethink or reposition **expensive restaurant coupons**, possibly by bundling with events or exclusive perks.  
+
+5. **Next Steps**  
+   - Build a **predictive model** (e.g., logistic regression or decision trees) to automate customer targeting.  
+   - Run **A/B tests** using demographic and contextual insights to validate impact on real-world coupon redemption.
 ---
 
 ## Tools Used
