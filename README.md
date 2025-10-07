@@ -4,9 +4,9 @@
 This project explores customer behavior around **digital driving coupons**.  
 The goal was to answer a simple but important question:
 
-**👉 Will a customer accept the coupon?**
+** Will a customer accept the coupon?**
 
-Using a dataset from the **UCI Machine Learning Repository**, we analyzed different factors that influence coupon acceptance, such as:
+Using a dataset from the **UCI Machine Learning Repository**, I have analyzed different factors that influence coupon acceptance, such as:
 - Coupon type
 - Passenger (who the driver is with)
 - Time of day
@@ -20,7 +20,12 @@ The dataset was originally collected through a survey on Amazon Mechanical Turk.
 
 ## Data
 The dataset includes:
-- **Five coupon types**: Coffee houses, bars, carryout/takeaway, less expensive restaurants (< $20), and more expensive restaurants ($20–$50).
+- **Five coupon types**: 
+   - Coffee houses, 
+   - bars, 
+   - carryout/takeaway, 
+   - less expensive restaurants (< $20), and 
+   - more expensive restaurants ($20–$50).
 - **Survey responses**: Whether the driver accepted the coupon:
   - `Y = 1`: Accepted (right away or later)
   - `Y = 0`: Not accepted
@@ -29,19 +34,20 @@ The dataset includes:
 
 ## Methods
 - **Data Cleaning**:
-  - Removed missing target values.
-  - Filled missing categorical values with "Unknown".
-  - Filled missing numerical values with the median.
+  - Removed columns with a lot missing data.
+  - Filled missing categorical values with "never".
+
 - **Exploratory Data Analysis (EDA)**:
   - Used **pandas** for summaries.
   - Visualized trends with **Matplotlib** and **Seaborn**.
   - Created **subplot dashboards** to compare multiple factors side by side.
+
 - **Statistical Summaries**:
   - Calculated acceptance rates by coupon type, weather, time of day, passenger type, age group, and destination.
 
 ---
 
-#### Key Insights from Visualizations
+## Summary of Findings
 
 1. **Coupon Type Matters**
 
@@ -66,9 +72,10 @@ The dataset includes:
    - **Education:** Acceptance rates are fairly balanced across education levels, but slightly higher among those with college or some higher education.
 
    - **Occupation:** Certain occupations (students, sales/service roles) show higher acceptance compared to professionals in managerial or technical roles.
+
 ---
 
-#### Recommendations
+## Recommendations
 
 1. **Target Younger Audiences & Students**  
    - Focus marketing campaigns on younger age groups and occupations like students and service workers, where acceptance rates are highest.  
@@ -83,10 +90,6 @@ The dataset includes:
 4. **Coupon Type Strategy**  
    - Invest in **coffee house** and **inexpensive restaurant coupons**, which drive the highest engagement.  
    - Rethink or reposition **expensive restaurant coupons**, possibly by bundling with events or exclusive perks.  
-
-5. **Next Steps**  
-   - Build a **predictive model** (e.g., logistic regression or decision trees) to automate customer targeting.  
-   - Run **A/B tests** using demographic and contextual insights to validate impact on real-world coupon redemption.
 ---
 
 ## Tools Used
@@ -98,11 +101,11 @@ The dataset includes:
 
 ## Repository Structure
 
-├── data/\
-│   └── coupons.csv                # Dataset\
+├── [data/](https://github.com/cryoraj/AmazonCustomerCoupon/tree/main/data)\
+│   └── [coupons.csv](https://github.com/cryoraj/AmazonCustomerCoupon/blob/main/data/coupons.csv)     # Source Data\
 │\
-├── Notebook/\
-│   └── Practical_Application_1.ipynb   # Jupyter Notebook (analysis + visualizations)\
-│   └── prompt.ipynb                    #provided prompt file\
+├── [Notebook/](https://github.com/cryoraj/AmazonCustomerCoupon/tree/main/Notebook)\
+│   └── [Practical_Application_1.ipynb](https://github.com/cryoraj/AmazonCustomerCoupon/blob/main/Notebook/Practical%20Application%201.ipynb)   # Jupyter Notebook (analysis + visualizations)\
+│   └── [prompt.ipynb](https://github.com/cryoraj/AmazonCustomerCoupon/blob/main/Notebook/prompt.ipynb)                    #provided prompt file\
 │\
-├── README.md                       # Project summary (this file)\
+├── [README.md](https://github.com/cryoraj/AmazonCustomerCoupon/blob/main/README.md)                       # Project summary (this file)\
