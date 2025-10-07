@@ -4,7 +4,7 @@
 This project explores customer behavior around **digital driving coupons**.  
 The goal was to answer a simple but important question:
 
-** Will a customer accept the coupon?**
+**<span style="color: #ffcccb;">Will a customer accept the coupon?**</span>
 
 Using a dataset from the **UCI Machine Learning Repository**, I have analyzed different factors that influence coupon acceptance, such as:
 - Coupon type
