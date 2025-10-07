@@ -49,36 +49,36 @@ The dataset includes:
 
 ## Summary of Findings
 
-1. **Coupon Type Matters**
+1. **Coupon Type Matters** 
 
-   - Coffee house and inexpensive restaurant coupons have the highest acceptance rates.
+   - Carry out & Take away and inexpensive restaurant coupons have the highest acceptance rates. [Section 5.2]
 
-   - More expensive restaurant coupons show much lower acceptance.
+   - More expensive restaurant and bar coupons show much lower acceptance. [Section 5.2]
 
 2. **Weather & Destination Influence Behavior**
 
-   - Clear weather is associated with higher coupon acceptance.
+   - Clear weather is associated with higher coupon acceptance. [Section 5.5]
 
-   - Work-related trips have the lowest acceptance, while leisure-oriented destinations (like “home” or “friends”) show stronger engagement.
+   - Work-related trips have the lowest acceptance, while leisure-oriented destinations show stronger engagement. [SEction 5.6]
 
 3. **Demographics Drive Acceptance**
 
-   - **Age:** Younger drivers are significantly more likely to accept coupons.
+   - **Age:** Younger drivers are significantly more likely to accept coupons. [Section 5.8]
 
-   - **Has Children:** Families with children tend to accept coupons at slightly higher rates than those without.
+   - **Has Children:** Families with children tend to accept coupons at slightly lower rates than those without. [Section 5.9]
 
-   - **Marital Status:** Singles are more responsive to coupons than married customers.
+   - **Marital Status:** Singles are more responsive to coupons than customers with a partner [Section 5.10]
 
-   - **Education:** Acceptance rates are fairly balanced across education levels, but slightly higher among those with college or some higher education.
+   - **Education:** Acceptance rates are fairly balanced across education levels, but slightly higher among those with college or some higher education. [Section 5.8]
 
-   - **Occupation:** Certain occupations (students, sales/service roles) show higher acceptance compared to professionals in managerial or technical roles.
+   - **Occupation:** Certain occupations (students, sales/service roles) show higher acceptance compared to professionals in managerial or technical roles. [Section 5.8]
 
 ---
 
 ## Recommendations
 
 1. **Target Younger Audiences & Students**  
-   - Focus marketing campaigns on younger age groups and occupations like students and service workers, where acceptance rates are highest.  
+   - Focus marketing campaigns on younger age groups and occupations like students - Healthcare Support, where acceptance rates are highest.  
 
 2. **Optimize for Context**  
    - Deliver coupons during **clear weather** and **non-work trips**, especially for leisure or dining destinations.  
@@ -89,7 +89,8 @@ The dataset includes:
 
 4. **Coupon Type Strategy**  
    - Invest in **coffee house** and **inexpensive restaurant coupons**, which drive the highest engagement.  
-   - Rethink or reposition **expensive restaurant coupons**, possibly by bundling with events or exclusive perks.  
+   - Rethink or reposition **expensive restaurant coupons**, possibly by bundling with events or exclusive perks. 
+ 
 ---
 
 ## Tools Used
